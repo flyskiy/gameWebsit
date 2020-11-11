@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* list-style: none; */
+    font-size: 15px;
+    font-family: '微软雅黑';
+    text-decoration: none;
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 18px;
+}
+.clean:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+    cursor: pointer;
+}
+/*=============================== 这是公共顶部的样式============================== */
+.blue{
+    color:#007bc7;
+}
+.header{
+    width: 100%;
+    height: 63px;
+    background: #c7ced6 ;
+    min-width: 1200px;
+}
+.header_top{
+    width:75%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.header_top a{
+    display: block;
+    float: right;
+    margin: 0px 15px 0px 0px;
+}
+.header_top a img{
+    width: 58px;
+    margin-top: -14px;
+}
+.header_top a  span{
+    display: block;
+    margin-top: -33px;
+    margin-left: 55px;
+}
+.header_nav{
+    width: 100%;
+    height: 35px;
+    background: #211d1e;
+}
+.header_nav ul{
+    width: 700px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0px auto;
+    list-style: none;
+}
+.header_nav li{
+    display: block;
+    float: left;
+    margin: 0px 0px 0px 37px;
+}
+.header_nav li a{
+    color:white;
+}
+.header_nav li a:hover{
+   color: red;
+}
+.header_bottom{
+    width: 100%;
+    height: 3px;
+    background: #e9b30b;
+}
+
+/*=============================== 这是内容部分============================== */
+.content{
+    width: 1200px;
+     min-width: 1200px;
+    margin: 0px auto;
+}
+/* 内容左边部分的样式 */
+.content_left{
+    width: 200px;
+    /* 跟谁父级 */
+    height: 850px;
+    background: #1183CA;
+    float: left;
+}
+.content_left_logo{
+    width: 200px;
+    height: 230px;
+    background: no-repeat url(../images/content_top.png) center;
+    background-size: 80%;
+}
+.content_left nav{
+    width: 200px;
+    /* height: 335; */
+    background: #eae4e4;
+    padding: 0 0 10px 0;
+}
+.content_left nav ul{
+    width: 225px;
+    margin: 10px 0 0 25px;
+    list-style: none;
+}
+.content_left nav ul li{
+    width: 143px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 2px solid skyblue;
+}
+.content_left nav ul li a{
+    font-size: 18px;
+}
+.content_left nav ul li a:hover{
+    font-size: 24px;
+}
+.content_left nav ul li img{
+    margin: 0px 0px 0px 23px;
+}
+.content_left nav ul li:last-of-type{
+    border: none;
+}
+.content_left form{
+    width: 200px;
+    height: 223px;
+}
+.content_left form h2{
+    width: 180px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    margin: 20px 0 25px 12px;
+}
+.content_left form p{
+    line-height: 20px;
+    margin: 13px 0px 0px 10px;
+    
+}
+.content_left form p label{
+    color: white;
+}
+.content_left form input[type="text"],
+.content_left form input[type="number"]{
+    width: 134px;
+    text-align: center;
+    text-align-last: center;
+}
+.content_left form select {
+    width: 138px;
+    text-align: center;
+    text-align-last: center;
+    color: #b6b6b6;
+}
+.content_left form select option:nth-child(1){
+    color: #b6b6b6;
+}
+
+.content_left form input[type="submit"]{
+    display: block;
+    width: 172px;
+    height: 45px;
+    line-height: 45px;
+    margin:26px auto;
+    background: #f8B600;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+
+/* 内容右边的面包屑样式 */
+.content_right{
+    width: 765px;
+    height: 850px;
+    float: left;
+    margin-left: 22px;
+}
+.content_right header{
+    width: 759px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #797979;
+    background: #e4e4e4;
+    border-left: 3px solid #f8B600;
+    border-right: 3px solid #f8B600;
+    margin-top: 17px;
+}
+.content_right header a span{
+    color: black;
+}
+.content_right header a{
+    color: #797979;
+    margin-left: 16px;
+    font-size: 17px;
+}
+.content_right header a:hover{
+    color: black;
+    font-weight: bold;
+}
+/*=============================== 这是公共底部的样式============================== */
+.footer{
+    width: 100%;
+    min-width: 1200px;
+    list-style: none;
+}
+.footer_Af header{
+    width: 1200px;
+    height: 50px;
+    margin: 10px;
+}
+.footer_Af img{
+    position: fixed;
+    height: 22px;
+    bottom: 63px;
+    right: -8px;   
+}
+.footer_Af .footer_AF_word{
+    width: 800px;
+    margin: 0px auto;
+    color: #9fa0a0;
+    font-size: 30px;
+    font-family: '宋体';
+    text-align: center;
+}
+.footer nav{
+    width: 100%;
+    height: 40px;
+    background: #F7B90E;
+}
+.footer nav ul{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 0 0 30px;
+    list-style: none;
+}
+.footer nav ul li{
+    height: 25px;  
+    line-height: 25px;
+    padding: 0px 60px;
+    margin: 10px 0 0 0;
+    float: left;
+    border-right: 1px solid skyblue;
+}
+.footer nav ul li a{
+    font-size: 17px;
+}
+.footer nav ul li a:hover{
+    background: gray;
+    cursor:pointer
+}
+.footer_Af{
+    width: 1200px;
+    height: 205px;
+    margin: 0 auto;
+    background: white;
+}
+.footer_Bf{
+    width: 100%;
+    height: 36px;
+    background: #ced6d9;
+    margin: 0px auto;
+}
+.footer_Bf ul{
+    width: 600px;
+    margin: 0 auto;
+    list-style: none;
+}
+.footer_Bf ul li{
+    height: 36px;
+    line-height: 36px;
+    margin: 0px 53px 0px 0px;
+    float: left;
+}
+.footer_Cf{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    background: #007bc8;
+    margin: 0px auto;
+    text-align: center;
+}
+.footer_Cf img{
+    width: 56px;
+}
+/* ===================================这是浮动框部分========================================== */
+.float_box{
+    top: 133px;
+    right: 0px;
+    position: fixed;
+}
