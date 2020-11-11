@@ -1,0 +1,398 @@
+.box{
+    background: url(https://fight.res.netease.com/pc/gw/20190927160735/img/news-page/bg-inner_11c35fc.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.content{
+    position: relative;
+    width: 1349px;
+    min-width: 1349px; 
+    height: 900px;
+}
+.content  .contentNav{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-size: 100% 100%;
+    border-bottom: 1px solid #b3bac3;
+    z-index: 1px;
+}
+.content  .contentNav .navigation{
+    position: absolute;
+    width: 625px;
+    height: 50px;
+    margin-top: 20px;
+    right: 0px;
+    z-index: 1;
+}
+.content  .contentNav .navigation li{
+    float: left;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    margin: 0 25px;
+}
+.content  .contentNav .navigation li .Chinese{
+    font-size: 14px;
+    color: white;
+    text-align: center ;
+    cursor: pointer;
+}
+.content  .contentNav .navigation li .English{
+    display: block;
+    text-align: center;
+    color: #cccdce;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.content .contentLeft{
+    position: absolute;
+    width: 195px;
+    height: 950px;
+    top: 0px;
+    left: 0px;
+    background: url(https://fight.res.netease.com/pc/gw/20190927160735/img/sidebar/sidebar-bg_a54fda6.png) no-repeat;
+    background-size: 100% 100%;    
+}
+.content .contentLeft .logoDiv{
+    display: block;
+    width: 137px;
+    height: 119px;
+    margin: 0 auto;
+    background: url(../images/news/logo.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.content .contentLeft .location a,
+.content .contentLeft .location span{
+    font-size: 14px;
+    color: #7b7b7b;
+    text-decoration: underline;
+}
+.content .contentLeft .location span{
+    text-decoration: none;
+}
+.content .contentLeft .location b{
+    font-weight:700;
+    font-size: 14px;
+    color: #e61b20;
+}
+.content .contentLeft .download{
+    width: 100%;
+    height: 98px;
+    margin-top: 15px;
+    background: url(../images/news/download.png);
+    background-size: 100% 100%;
+}
+.content .contentLeft .forum{
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    background: url(../images/news/forum.png);
+    background-size: 100% 100%;
+}
+.content .contentLeft .weix{
+    position: relative;
+    width: 188px;
+    height: 245px;
+    text-align: center;
+}
+.content .contentLeft .weix p{
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    top: 30px;
+    left: 20px;
+}
+.content .contentLeft .weix p span:nth-of-type(1){
+    position: absolute;
+    float: left;
+    width: 5px;
+    height: 5px;
+    top: 10px;
+    left: 25px;
+    background: #e92020;
+}
+.content .contentLeft .weix p span:nth-of-type(2),
+.content .contentLeft .qq p span:nth-of-type(2){
+    font-size: 20px;
+    color:#fff;
+}
+.content .contentLeft .weix p span:nth-of-type(3){
+    position: absolute;
+    float: right;
+    width: 5px;
+    height: 5px;
+    top: 10px;
+    right: 25px;
+    background: #e92020;
+}
+.content .contentLeft .weix .QRCode{
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    top: 60px;
+    left: 20px;
+    background: url(https://fight.res.netease.com/pc/gw/20190927160735/img/sidebar/qrcode_23b9969.png);
+    background-size: 100% 100%;
+    clear: both;
+}
+.content .contentLeft .qq{
+    text-align: center;
+}
+.content .contentLeft .qq p{
+    width: 95px;
+    height: 30px;
+    margin: 0 auto;
+}
+.content .contentLeft .qq p span:nth-of-type(1),
+.content .contentLeft .qq p span:nth-of-type(3){
+    float: left;
+    width: 5px;
+    height: 5px;
+    margin-top: 13px;
+    background: #e92020;
+}
+.content .contentLeft .qq p span:nth-of-type(3){
+    float: right;
+}
+
+.content .contentLeft .qq  span{
+    font-size: 12px;
+    color:#b2b2b2;
+}
+.content .contentRight{
+    position: absolute;
+    width: 1120px;
+    min-width: 1120px;
+    height: 640px;
+    top: 130px;
+    left: 228px;
+    border: none;
+}
+.content .contentRight .contentRightNav{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    left: 55px; 
+}
+.content .contentRight .contentRightNav li{
+    position: relative;
+    float: left;
+    width: 7%;
+    margin-right: 20px;
+    text-align: center;
+}
+.content .contentRight .contentRightNav li:nth-of-type(1){
+    background: url(../images/cmmons/NavBg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.content .contentRight .contentRightNav li a{
+    color: white;
+    font-size:16px;
+    font-weight: 400;
+}
+.content .contentRight .contentRightNav li i{
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    top: 13px;
+    left: 13px;
+    background: white;
+}
+.content .contentRight  .list{
+    width: 100%;
+    height: 470px;   
+    margin-top: 60px; 
+}
+.content .contentRight  .list li{
+    position: relative;
+    width: 18.20%;
+    height: 220px;
+    float: left;
+    background: url(../images/news/contentList.png);
+    background-size: 100% 100%;
+    margin: 0 -18px 15px 10px;
+    cursor: pointer;
+}
+.content .contentRight  .list li:nth-of-type(1){
+    margin-left: 30px;
+}
+.content .contentRight  .list li #title{
+    position: absolute;
+    width: 75%;
+    height: 40px;
+    top: 25px;
+    left: 30px;
+    bottom: 5px;
+    /* background: turquoise; */
+}
+.content .contentRight  .list li #title #titleLeft{
+    font-size: 30px;
+    color: #929292;
+    border-bottom: 2px solid red;
+}
+.content .contentRight  .list li #title #titleRight{
+    color: #a2a2a2;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+.content .contentRight  .list li #discribe{
+    position: absolute;
+    width: 75%;
+    height: 72px;
+    max-height: 72px;
+    line-height: 1.5;
+    top: 85px;
+    left: 30px;
+    font-size: 12px;
+    color: white;
+    overflow: hidden;  
+}
+.content .contentRight  .list li #btn{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    bottom: 10px;
+    left: 30px;
+    background: url(https://fight.res.netease.com/pc/gw/20190927160735/img/news/btn-go-2_3cdae4f.png) no-repeat 100% 100%;
+}
+.content .contentRight #contentRightFoot{
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    color:#afafaf;
+    font-size: 14px;
+    margin: 18px auto;
+    text-align: center;
+}
+.content .contentRight #contentRightFoot div{
+    float: left;
+}
+.content .contentRight #contentRightFoot #pre{
+    margin-right: 20px;
+}
+.content .contentRight #contentRightFoot #contentRightFootList{
+    float: left;
+}
+.content .contentRight #contentRightFoot #contentRightFootList li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.content .contentRight #contentRightFoot #contentRightFootList li:nth-of-type(1){
+    background: #8d9bb0;
+    color: white;
+}
+.content .contentRight .share{
+    width: 20%;
+    height: 20px;
+    line-height: 20px;
+    color:#818181;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.content .contentRight .share .shareTo{
+    display: block;
+    float: left;
+}
+.content .contentRight .share a{
+    display: block;
+    width:20px;
+    height:20px;
+    float: left;
+    margin-right: 10px;
+}
+.content .contentRight .share .IE{
+    background: url(../images/news/qqIEBefore.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .IE:hover{
+    background: url(../images/news/qqIEAfter.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .weiXI{
+    background: url(../images/news/weixBefore.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .weiXI:hover{
+    background: url(../images/news/weixAfter.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .blog{
+    background: url(../images/news/microBlogBefore.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .blog:hover{
+    background: url(../images/news/microBlogAfter.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .space{
+    background: url(../images/news/spaceBefore.png);
+    background-size: 100% 100%;
+}
+.content .contentRight .share .space:hover{
+    background: url(../images/news/spaceAfter.png);
+    background-size: 100% 100%;
+}
+.footer{
+    width: 853px;
+    height: 70px;
+    margin: 0 auto;
+}
+.footer .footerLeft{
+    float: left;
+    width: 260px;
+    height: 100%;
+}
+.footer .footerLeft a:nth-of-type(1){
+    float: left;
+    width: 95px;
+    height: 40px;
+    background: url(../images/cmmons/footer_nt.png) no-repeat;
+    background-size:100% 100%;
+    margin-right: 10px;
+}
+.footer .footerLeft a:nth-of-type(2){
+    float: left;
+    width: 120px;
+    height: 40px;
+    background: url(../images/cmmons/network_white.png) no-repeat 100% 100%;
+}
+.footer  .footerRight{
+    float: right;
+    width: 591px;
+    height: 100%;
+}
+.footer .footerRight .link{
+    width: 100%;
+    height: 30%;
+}
+.footer  .footerRight .link a{
+    color:#818181;
+    font-size: 12px;
+}
+.footer  .footerRight .link a:hover{
+    color: #e61b20;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.footer  .footerRight .copyright i{
+    float: left;
+    color: white;
+}
+.footer  .footerRight .copyright a{
+    float: right;
+    width: 135px;
+    height: 25px;
+    line-height: 25px;
+    color: #818181;
+    background: #610000;
+}
+.footer  .footerRight .copyright a:hover{
+    text-decoration: underline;
+}

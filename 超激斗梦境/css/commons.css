@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-style: normal;
+    list-style-type: none;
+}
+html,body{
+    font-family: "\5FAE\8F6F\96C5\9ED1","Microsoft YaHei";
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#clear:after{
+    content: '';
+    display: block;
+    clear: both; 
+}
+/* ======================公共样式===================== */
+/* .left {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+} */
+.box{
+    width: 1349px;
+    min-width: 1349px;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    width: 1349px;
+    min-width: 1349px;
+    height: 45px;
+    background: white;
+}
+.header #list{
+    float: left;
+    position: relative;
+    width: 177px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    text-align: center;
+    cursor: default;
+    background: #cf1132;
+}
+.header #list b{
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 11px;
+    background: url(../images/index/sprite_map.png) -90px -306px no-repeat;
+    top: 18px;
+    left: 25px;
+}
+.header .center{
+    float: left;
+    width: 1033px;
+    height: 45px;
+    line-height: 45px;
+}
+.header .center a{
+    display: block;
+    width: 110px;
+    height: 35px;
+    line-height: 45px;
+    background: url(../images/index/network.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 5px auto;
+}
+.header #right{
+    float: right;
+    width: 138px;
+    height: 45px;
+    line-height: 45px;
+    border-left: 1px solid #dadada;
+}
+.header  #listMenu{
+    position: absolute;
+    width: 1349px;
+    min-width: 1349px;
+    top: 45px;
+    height: 345px;
+    background: #fdfefe;
+    z-index: 3;
+}
+.header  #listMenu #listMenuContent{
+    width: 1080px;
+    min-width: 1000px;
+    /* height: 345px; */
+    margin: 0 auto;
+    opacity : 0;
+    overflow: hidden;
+}
+.header  #listMenu #listMenuContent .listMenuContent1{
+    width: 26%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #eee;
+    padding-left: 15px;
+}
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS,
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS{
+    position: relative;
+    width: 100%;
+    height: 310px;
+}
+
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuRole{
+    width: 46%;
+    height: 100%;
+    float: left;
+}
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuRole li,
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuLei li,
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .popular li{
+    height: 17px;
+    font-size: 12px;
+    transform: scale(0.933333);
+}
+.header  #listMenu #listMenuContent .listMenuContent1 li a:hover,
+.header  #listMenu #listMenuContent .listMenuContent2 li a:hover,
+.header  #listMenu #listMenuContent .listMenuContent3 li a:hover{
+    color: #bc2e2e;
+}
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuRole li a,
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuLei li a,
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .popular li a{
+    float: left;
+    width: 85px;
+    font-size: 12px;
+    color:#626262;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuRole li i,
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuLei li i,
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .popular li i{
+    float: left;
+    width: 28px;
+    font-size: 12px;
+    transform: scale(0.933333);
+    background: #bc2e2e;
+    color: white;
+}
+
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .listMenuLei{
+    width: 54%;
+    height: 100%;
+    float: right;
+}
+.header  #listMenu #listMenuContent .listMenuContent1 .listMenuConS .recommend{
+    position: absolute;
+    width: 10px;
+    height: 90px;
+    top: 35%;
+    right: 0px;
+    text-align: center;
+    font-size: 12px;
+    transform: scale(0.933333);
+    padding: 10px 6px 10px 6px;
+    background: #bc2e2e;
+    color: white;
+}
+.header  #listMenu #listMenuContent .listMenuContent2{
+    width: 59.2%;
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .popular{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals{
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li{
+    float: left;
+    width: 115.5px;
+    height: 100%;
+    font-size: 12px;
+    transform: scale(0.933333);
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(1){
+    border-right: 1px solid #eee;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(3),
+.header #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(4),.header #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(5){
+    width: 85px;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li a{
+    float: left;
+    width: 85px;
+    font-size: 12px;
+    color:#626262;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(3) a,
+.header #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(4) a,
+.header #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li:nth-of-type(5) a{
+    width: 85px;
+    font-size: 12px;
+    color:#626262;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .listMenuConS .NewArrivals li i{
+    float: right;
+    width: 28px;
+    font-size: 12px;
+    color: white;
+    transform: scale(0.933333);
+    background: #fbe49b;
+}
+.header  #listMenu #listMenuContent .listMenuContent2 .MobileGames{
+    position: absolute;
+    width: 10px;
+    height: 90px;
+    top: 35%;
+    right: 0px;
+    text-align: center;
+    font-size: 12px;
+    transform: scale(0.933333);
+    padding: 10px 6px 10px 6px;
+    background: #bc2e2e;
+    color: white;
+}
+.header  #listMenu #listMenuContent .listMenuContent3{
+    width: 10%;
+    height: 100%;
+    float: right;
+    border-right: 1px solid #eee;
+    padding-left: 15px;    
+}
+.header  #listMenu #listMenuContent .listMenuContent3 .listMenuConS li{
+    width: 100%;
+    height: 20px;
+}
+.header  #listMenu #listMenuContent .listMenuContent3 .listMenuConS li b{
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    background :url(https://nie.res.netease.com/comm/nie.topBar/images/sprite-w_dd519f4.png) no-repeat 0 -338px;
+}
+.header  #listMenu #listMenuContent .listMenuContent3 .listMenuConS li a{
+    float: left;
+    width: 75%;
+    height: 100%;
+    color:#626262;
+    font-size: 12px;
+    transform: scale(0.933333);
+}
+.header  #listMenu #listMenuContent .listMenuContent3 .listMenuConS li:nth-last-of-type(1) a{
+    display: block;
+    width: 78px;
+    float: right;
+    color:#bc3030;
+}
+.header  #listMenu #listMenuContent .listMenuContent3 .listMenuConS li i{
+    float: right;
+    width: 25%;
+    text-align: center;
+    background: #bc2e2e;
+    color: white;
+    font-size: 12px;
+    transform: scale(0.933333);
+}
+.header  #listMenu #listMenuContent .listMenuConTitle{
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #bc2e2e;
+    background: #f7f7f8;
+}
+
+.content{
+    width: 1349px;
+    min-width: 1349px; 
+}
+.logo{
+    position: absolute;
+    width: 136px;
+    height: 106px;
+    top: 7px;
+    left: 33px;
+    background: url(../images/index/logo.png);
+    background-size: 100% 100%;
+}
+.content .content_Af nav{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: url(../images/index/contentAf_nav_bg.png) no-repeat;
+    background-size: 100% 100%;
+    /* z-index: 3px; */
+}
+.content .content_Af nav .navigation{
+    position: absolute;
+    width: 625px;
+    height: 50px;
+    margin-top: 20px;
+    right: 0px;
+    z-index: 1;
+}
+
+.content .content_Af nav .navigation li{
+    float: left;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    margin: 0 25px;
+}
+.content .content_Af nav .navigation li .Chinese{
+    font-size: 14px;
+    color: white;
+    text-align: center ;
+    cursor: pointer;
+}
+.content .content_Af nav .navigation li .English{
+    display: block;
+    text-align: center;
+    color: #cccdce;
+    font-size: 10px;
+    cursor: pointer;
+}
