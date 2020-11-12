@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.ifram{
+    width: 704px;
+    height: 390px;
+}
+.ifram li{
+    width: 204.67px;
+    height: 70px;
+    padding: 0 30px 20px 0;
+    float: left;
+}
+.ifram li .ifram_left{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.ifram li .ifram_left img{
+    width: 70px;
+    height: 70px;
+}
+.ifram li .ifram_right{
+    width: 124.67px;
+    height: 70px;
+    float: right;
+    margin-left: 10px;
+}
+.ifram li .ifram_right .top{
+    width: 124.67px;
+    height: 35px;
+    font-size: 14px;
+    overflow :  hidden; 
+    text-overflow : ellipsis; 
+    display : -webkit-box;
+    -webkit-line-clamp :  2; 
+    -webkit-box-orient :  vertical; 
+}
+.ifram li .ifram_right .bottom{
+    width: 124.67px;
+    height: 35px;
+    color:#00a1d6;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+}
+.ifram li .ifram_right .bottom span{
+    position: absolute;
+    width: 124.67px;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}

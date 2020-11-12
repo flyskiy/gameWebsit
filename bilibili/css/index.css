@@ -1,0 +1,1551 @@
+.header_top {
+    width: 100%;
+    min-width: 1024px;
+    height: 180px;
+    background: no-repeat url(../images/index/head_top_bg.png) center;
+    background-size:100% 155px;
+}
+.header_Af {
+    width: 100%;
+    min-width: 1024px;
+    height: 55px;
+    margin-top: -13px;
+}
+
+.header_Af>div {
+    width: 33.33%;
+    height: 35px;
+}
+.header_Af .left{
+    width: 42.33%;
+    min-width: 530px;
+    height: 35px;
+    float: left;
+    margin-top: 20px;
+}
+.header_Af .left>li {
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    float: left;
+    margin-right: 12px;
+    white-space: nowrap;
+}
+.header_Af .left img{
+    width: 20px;
+}
+.header_Af .left a{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 20px #000;
+    white-space: nowrap;
+    font: 14px;
+    display: block;
+    float: left;
+    width: 50px;
+}
+.header_Af .left .son {
+    width: 300px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    left:-50px;
+    background: rgba(255, 255, 255, 0.8);
+}
+.header_Af .left>li:hover>.son {
+    display:block;
+}
+.header_Af .left ul {
+    display:none;
+    position: absolute;
+    /* top:40px;
+    left:18px; */
+    background: rgba(255, 255, 255, 0.5);
+}
+.header_Af .left li:hover ul {
+    display:block;
+}
+
+.header_Af .main {
+    width: 30.24%;
+    height: 35px;
+    background: #e7e7e7;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.header_Af .main  input{
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    float: left;
+    border: none;
+}
+.header_Af .main  button{
+    width: 10%;
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/index/search_before.png) no-repeat center;
+    background-size: auto 100%;
+    display: block;
+    float: right;
+    border: none;
+}
+.header_Af .main button:hover{
+    background: url(../images/index/search_after.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+
+.header_Af .right {
+    width: 18%;
+    height: 35px;
+    float: right;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+.header_Af .right  span{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    float: left;
+    background: url(../images/index/head_portrait.jpg) no-repeat center;
+    background-size: auto 100%;
+}
+.header_Af .right a{
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    text-shadow: 0px 0px 20px #000;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.header_Af .right a:last-of-type{
+    width: 59px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #fb7299;
+    float: left;
+}
+
+.header_Bf {
+    width: 1024px;
+    margin: 0 auto;
+}
+.header_Bf img {
+    width: 200px;
+    margin: 30px 0 0 50px;
+}
+
+.header nav {
+    width: 1024px;
+    height: 60px;
+    margin: 0 auto ;
+    padding: 20px 0 0 0 ;
+    overflow: hidden;
+    /* border: 1px solid skyblue; */
+}
+.header nav  div {
+    width: 1024px;
+    height: 60px;
+}
+
+.header nav .left {
+    width: 16%;
+    height: 60px;
+    float: left;
+    padding: 0 2%;
+}
+.header nav .left li {
+    width:25%;
+    height: 60px;
+    float: left;
+}
+.header nav .left li a {
+    width: 100%;
+    height: 60px;
+    display: block;
+    color: #000;
+}
+.header nav .left li b {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    /* 圆角属性 */
+    border-radius: 50%;
+}
+.header nav .left li:nth-of-type(1) b{
+    background: url(../images/index/首页.png) no-repeat hotpink;
+    background-size: auto 100%; 
+}
+.header nav .left li:nth-of-type(2) b{
+    background: url(../images/index/动态.png) no-repeat #fcba2a;
+    background-size: auto 100%; 
+}
+.header nav .left li:nth-of-type(3) b{
+    background: url(../images/index/排行.png) no-repeat #00a1d6;
+    background-size: auto 100%; 
+}
+.header nav .left li:nth-of-type(4) b{
+    background: url(../images/index/频道.png) no-repeat #6dc781;
+    background-size: auto 100%; 
+}
+.header nav .left li span {
+    width: 100%;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+}
+.header nav .left li a:hover span {
+    color: skyblue;
+}
+
+.header nav .main {
+    width: 56%;
+    height: 60px;
+    float: left;
+    padding: 0 2%;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+}
+
+.header nav .main li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding: 0 5px;
+}
+.header nav .main li a{
+    font-size: 13px;
+    color: #000;
+}
+.header nav .main li a:hover{
+    color: #1890ff;
+}
+.header nav .main li span{
+    background: skyblue;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.header nav .right {
+    width: 19.5%;
+    height: 60px;
+    float: right;
+}
+.header nav .right li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 9px;
+}
+.header nav .right li a{
+    color: #000;
+    font-size: 14px;
+}
+.header nav .right li a:hover{
+    color: #1890ff;
+}
+.header nav .right li a img{ 
+    width: 18px;
+}
+
+
+/* ========================内容部分第一层样式start=================*/
+.content_Af {
+    width: 1024px;
+    height: 216px;
+}
+.content_Af_left {
+    width: 490px;
+    height: 216px;
+    float: left;
+}
+.content_Af_left a img{
+    width: 490px;
+    height: 216px;
+}
+.content_Af_right {
+    width: 524px;
+    height: 216px;
+    float: right;
+    margin: 0 0 0 10px;
+    overflow: hidden;
+}
+.content_Af_right li{
+    width: 170px;
+    height: 100px;
+    float: left;
+    padding: 0 0 16px 4.6px;
+}
+.content_Af_right img{
+    width: 170px;
+    height: 100px;
+}
+.content_Af_right ul li a{
+    width: 170px;
+    height: 100px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.content_Af_right ul li p {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top:80px;
+    left: 0px;
+    background: rgba(0,0,0,0.1);
+}
+.content_Af_right ul li:hover p {
+    top:0px;
+    background: rgba(0,0,0,0.5);
+} */
+
+.content_Af_right ul li p span {
+    color: #fff;
+}
+/* =======================内容部分第一层样式end=================*/
+
+
+/* =======================内容部分第二层样式start=================*/
+.content_Bf{
+    width: 1024px;
+    height: 255px;
+    margin: 40px auto;
+}
+
+.content_Bf_left{
+    width: 714px;
+    height: 230px;
+    float: left;
+}
+.content_Bf_left nav{
+    width: 714px;
+    height: 35px;
+}
+.content_Bf_left nav img{
+    width:15px;
+    vertical-align: middle;
+}
+.content_Bf_left nav img:nth-of-type(1){
+    width: 34px;    
+}
+.content_Bf_left nav span{
+    color: #212121;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.content_Bf_left  nav a{
+    color:#505050;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.content_Bf_left  nav a:hover{
+    color: #1890ff;
+}
+
+.content_Bf_left ul{
+    width: 714px;
+    height: 195px;
+    margin-top: 25px;
+}
+.content_Bf_left ul li{
+    width: 170px;
+    height: 195px;
+    padding: 0 6px 0 0;
+    float: left;
+}
+.content_Bf_left ul li a:hover{
+    color: #1890ff;
+}
+.content_Bf_left ul li a:nth-of-type(1) img{
+    width: 170px;
+    height: 100px;
+}
+.content_Bf_right{
+    width: 268px;
+    height: 230px;
+    margin: 0 0 0 40px;
+    float: right;
+}
+.content_Bf_right .online_list{
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color:#505050;
+    text-align: center;
+    background: #f4f4f4;
+}
+.content_Bf_right .online_list:hover{
+    color: #1890ff;
+}
+.content_Bf_right .two_left_img img{
+    margin-top: 24px;
+    width: 100%;
+    height: 140px;
+}
+/* =======================内容部分第二层样式end=================*/
+
+/* =======================内容部分第三层样式start=================*/
+.content_Cf{
+    display: block;
+    width: 1024px;
+    height: 85px;
+    background: url(../images/index/ad.jpg);
+    background-size: 100% auto;
+    margin-top: 35px;
+}
+/* =======================内容部分第三层样式end=================*/
+
+
+/* =======================内容部分第四层样式start=================*/
+
+.left_border_content nav .left i{
+    color: #505050;
+    font-size: 13px;
+    font-style: normal;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+.left_border_content .substance li .up{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/baby5.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.left_border_content .substance li .underneath{
+    width: 170px;
+    height: 75px;
+}
+.left_border_content .substance li .underneath_left{
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    background: url(../images/index/head.png);
+    background-size: 100% 100%;
+}
+.left_border_content .substance li .underneath ul{
+    width: 130px;
+    height: 75px;
+    float: left;
+}
+.left_border_content .substance li .underneath ul li{
+    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    margin:0;
+    padding:0;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+	white-space: nowrap;   
+}
+.left_border_content .substance li .underneath ul li:nth-of-type(1) a{
+    font-size: 14px;
+    font-weight: 500;
+}
+.left_border_content .substance li .underneath ul li:nth-of-type(1) a:hover{
+    color: #1890ff;
+}
+.left_border_content .substance li .underneath ul li:nth-of-type(2){
+    font-size: 12px;
+    color: #505050;
+}
+.left_border_content .substance li .underneath ul li:nth-of-type(3){
+    font-size: 12px;
+    color: #999;
+}
+
+.outer_border_part .right_border_content .title .left,
+.outer_border_part .right_border_content .title .mid,
+.outer_border_part .right_border_content .title .right{
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    display: block;
+    float: left;
+    margin-left: 12px;
+} 
+.outer_border_part .right_border_content .title a:nth-of-type(3){
+    color:#00a1d6;
+    border-bottom: 1px solid #00a1d6;
+}
+.outer_border_part .right_border_content .lower{
+    display: block;
+    height: 370px;
+    width: 268px;
+    margin-top: 25px;
+    background: url(../images/index/center_Df_right_lower.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+/* =======================内容部分第四层样式end=================*/
+
+/* =======================内容部分第五层样式start=================*/
+.main_upper{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/baby2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li:nth-of-type(1){
+    width: 268px;
+    height: 65px;
+}
+.right_border_content .under li i,
+.content_Lf_right .twelve_right_lower i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+    font-style: normal;
+    float: left;
+    margin-right: 15px;
+    margin-top:10px;
+}
+.right_border_content .under li:nth-of-type(1) i,
+.content_Lf_right .twelve_right_lower li:nth-of-type(1) i{
+    margin-top:0px;
+}
+.right_border_content .under li:nth-of-type(1) i,
+.right_border_content .under li:nth-of-type(2) i,
+.right_border_content .under li:nth-of-type(3) i{
+    background: #1890ff;
+    color: white;
+}
+
+.right_border_content .under li a{
+    display: block;
+    width: 233px;
+    float: left;
+}
+.right_border_content .under li a span{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/baby2.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+.right_border_content .under li a div{
+    width: 110px;
+    float: left;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+	white-space: nowrap;   
+}
+.right_border_content .under li a s{
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 5px
+    display: block;
+}
+.right_border_content .under li a b{
+    display: block;
+    width: 105px;
+    height: 30px;
+    margin-left: 5px;
+    color: #999;
+    font-size: 12px;
+}
+.right_border_content .under li a u{
+    display: block;
+    width: 233px;
+    height: 37.142px;
+    line-height: 37.142px;
+    font-style: normal;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+	white-space: nowrap;   
+}
+
+/* =======================内容部分第五层样式end=================*/
+
+
+/* =======================内容部分第六层样式同第三层样式=================*/
+
+/* =======================第七层样式start=======================*/
+/* 导航栏部分 */
+.left_border_content nav .nav_left{
+    float: left;
+    width: 520px;
+    height: 35px;
+}
+.left_border_content nav .nav_left li{
+    float: left;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align:center;
+}
+.left_border_content nav .nav_left li a{
+    font-size: 14px;
+}
+.left_border_content nav .nav_left li:nth-of-type(1){
+    width:40px;
+    line-height: 35px;
+}
+.left_border_content nav .nav_left li:nth-of-type(1) img{
+    width:35px;
+    height: 35px;
+}
+.left_border_content nav .nav_left li:nth-of-type(2){
+    width: 50px;
+}
+.left_border_content nav .nav_left li:nth-of-type(2) a{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.left_border_content nav .nav_left li:nth-of-type(2) a:hover{
+    color: #73c9e5;
+}
+.left_border_content nav .nav_right{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#00a1d6;
+    border-radius: 2px;
+    border:1px solid #00a1d6;
+    float: right;
+}
+.left_border_content .contents{
+    width: 724px;
+    height: 390px;
+    margin-top: 25px;
+    border: none;
+}
+
+.right_border_content .bottom_part{
+    width: 268px;   
+    height: 390px;
+    margin-top: 25px;
+}
+.right_border_content .bottom_part li{
+    width: 268px; 
+    height: 39px;
+    line-height: 39px;
+}
+
+.right_border_content .bottom_part li i{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+    background: white;
+    font-style: normal;
+    float: left;
+    margin-right: 6px;
+    margin-top: 9.5px;
+}
+.right_border_content .bottom_part li:nth-of-type(1) i,
+.right_border_content .bottom_part li:nth-of-type(2) i,
+.right_border_content .bottom_part li:nth-of-type(3) i{
+    color:white;
+    background: #1890ff;
+}
+.right_border_content .bottom_part li a{
+    width: 145px;
+    height: 30px;
+    line-height: 39px;
+    font-size: 14px;
+    font-weight: 500px;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;   
+    float: left;
+}
+.right_border_content .bottom_part li span{
+    float: right;
+    font-size: 12px;
+    color: #999;
+}
+/* =======================第七层样式end======================== */
+
+/* =======================第八层样式start======================== */
+.left_border_content .substance li .upward{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/eight_floor_content_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.left_border_content .substance li .low{
+    display: block;
+    width: 170px;
+    font-size: 14px;
+    font-weight: 500;
+    overflow :  hidden; 
+    margin-top: 10px;
+    text-overflow : ellipsis; 
+    display : -webkit-box;
+    -webkit-line-clamp :  2; 
+    -webkit-box-orient :  vertical; 
+}
+.right_border_content .title .special_ro,
+.right_border_content .upper b{
+    font-size: 20px;
+    color: #212121;
+    font-weight: 500;
+}
+.outer_border_part .right_border_content .lower_eight{
+    display: block;
+    height: 370px;
+    width: 268px;
+    margin-top: 25px;
+    background: url(../images/index/lower_eight.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+/* =======================第八层样式end======================== */
+
+/* =======================第九层样式start======================== */
+.right_border_content .bottom_part li:nth-of-type(8) .bottom_part_img{
+    width: 265px;
+    height: 91px;
+}
+.right_border_content .bottom_part li:nth-of-type(8) .bottom_part_img img{
+    width: 265px;
+    height: 91px;
+}
+/* =======================第九层样式end======================== */
+
+/* =======================第十层样式start======================== */
+.left_border_content .substance .ten_upper{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/ten_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .under_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/ten_right_img.jpg);
+    background-size: 100% 100%;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十层样式end======================== */
+
+/* =======================第十一层样式同第三层样式======================== */
+
+/* =======================第十二层样式start======================== */
+.content_Lf{
+    width: 1024px;
+    height: 633px;
+    margin-top: 55px;
+}
+.content_Lf_left{
+    width: 724px;
+    height: 633px;
+    float: left;
+    overflow: hidden;
+}
+.content_Lf_left .headline{
+    width: 724px;
+    height: 35px;
+    line-height: 35px;
+}
+.content_Lf_left .headline .min_logo{
+    width:35px;
+    height:35px;
+    vertical-align: middle;
+}
+.content_Lf_left .headline a:nth-of-type(1){
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 13px;
+}
+.content_Lf_left .headline a:nth-of-type(2),
+.content_Lf_left .headline a:nth-of-type(3),
+.content_Lf_left .headline a:nth-of-type(4){
+    font-size: 12px;
+    margin-right: 12px;
+    color:#505050;
+}
+.content_Lf_left .headline button{
+    float: right;
+    height: 22px;
+    font-size: 12px;
+    color: #505050;
+    background: white;
+    border: 1px solid silver;
+    padding:0 9px 0 6px;
+    margin-top: 7px;
+
+}
+.content_Lf_left .headline button img{
+    width: 13px;
+    height: 13px;
+}
+
+.content_Lf_left .main_contents{
+    width: 740px;
+    height: 573px;
+    margin-top: 25px;
+}
+.content_Lf_left .main_contents li{
+    width: 170px;
+    height: 280px;
+    padding:0 14.4px 7px 0;
+    float: left;
+}
+.content_Lf_left .main_contents li .main_contents_img{
+    display: block;
+    width: 170px;
+    height: 227px;
+    background: url(../images/index/twelve_left_img.jpg) no-repeat;
+    background: 100% auto;
+}
+.content_Lf_left .main_contents li .main_contents_heading{
+    display: block;
+    width: 170px;
+    height: 19px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0 8px;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.content_Lf_left .main_contents li .main_contents_type{
+    display: block;
+    width: 170px;
+    height: 19px;
+    color: #999;
+    font-size: 12px;
+    font-weight: 500;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;   
+}
+.content_Lf_right{
+    width: 268px;
+    height: 633px;
+    margin: 0 0 0 30px;
+    float: right;
+}
+.content_Lf_right .navigation{
+    width: 268px;
+    height: 35px;
+}
+.content_Lf_right .navigation b{
+    line-height: 35px;
+    color: #212121;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+.content_Lf_right .navigation a{
+    line-height: 35px;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #505050;
+}
+.content_Lf_right .navigation a:nth-of-type(4){
+    float:right;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #505050;
+    background: white;
+    border: 1px solid silver;
+    margin-right: 0px;
+    margin-top: 6px;
+}
+.content_Lf_right .twelve_right_lower{
+    width: 268px;   
+    height: 573px;
+    margin-top: 25px;
+}
+.content_Lf_right .twelve_right_lower li{
+    width: 268px;
+    height: 37.72px;
+}
+.content_Lf_right .twelve_right_lower li:nth-of-type(1){
+    width: 268px;
+    height: 158px;
+}
+.content_Lf_right .twelve_right_lower li:nth-of-type(1) i,
+.content_Lf_right .twelve_right_lower li:nth-of-type(2) i,
+.content_Lf_right .twelve_right_lower li:nth-of-type(3) i{
+    color:white;
+    background: #1890ff;
+}
+.content_Lf_right .twelve_right_lower .lower_img{
+    display: block;
+    width:112px;
+    height:149px;
+    background: url(../images/index/twelve_right_img.jpg);
+    background-size: 100% 100%;
+    float: left;
+}
+.content_Lf_right .twelve_right_lower .lower_discribe{
+    width: 111px;
+    height: 158px;
+    float: left;
+    margin-left: 10px; 
+}
+.content_Lf_right .twelve_right_lower .lower_discribe b{
+    display: block;
+    width: 111px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121; 
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap; 
+    margin-bottom: 15px;
+}
+.content_Lf_right .twelve_right_lower .lower_discribe h1{
+    display: block;
+    width: 111px;
+    color:#999;
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap; 
+}
+.content_Lf_right .twelve_right_lower li .cartoon_title{
+    float: left;
+    width: 148px;
+    font-size:14px;
+    color:#212121;
+    line-height: 37.72px;
+    font-weight: 500;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.content_Lf_right .twelve_right_lower li h3{
+    float:right;
+    width: 80px;
+    line-height: 37.72px;
+    color:#999;
+    font-size:12px;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}
+/* =======================第十二层样式end======================== */
+
+
+/* =======================第十三层样式start======================== */
+.left_border_content .substance li .thirteen_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/thirteen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .thirteen_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/thirteen_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十三层样式end======================== */
+
+/* =======================第十四层样式start======================== */
+.left_border_content .substance li .fourteen_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/fourteen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .fourteen_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/fourteen_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十四层样式end======================== */
+
+/* =======================第十五层样式start======================== */
+.left_border_content .substance li .fifteen_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/fifteen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .fifteen_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/fifteen_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十五层样式end======================== */
+
+/* =======================第十六层样式start======================== */
+.left_border_content .substance li .sixteen_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/sixteen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .sixteen_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/sixteen_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十六层样式end======================== */
+
+/* =======================第十七层样式start======================== */
+.left_border_content .substance .seventeen_substance_up{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/seventeen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.left_border_content .substance .seventeen_substance_discribe{
+    margin: 10px 0 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+}
+.left_border_content .substance .seventeen_substance_number{
+    color: #999;
+    font-size: 12px;
+}
+.right_border_content .seventeen_lower{
+    display: block;
+    width: 268px;
+    height: 370px;
+    margin-top: 25px;
+    background: url(../images/index/seventeen_right_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+/* =======================第十七层样式end======================== */
+
+/* =======================第十八层样式start======================== */
+.left_border_content .substance li .eighteen_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/eighteen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .eighteen_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/eighteen_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十八层样式end======================== */
+
+/* =======================第十九层样式start======================== */
+.left_border_content .substance li .nineteen_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/nineteen_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .nineteen_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/nineteen_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第十九层样式end======================== */
+
+/* =======================第二十层样式start======================== */
+.left_border_content .substance li .twenty_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twenty_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twenty_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twenty_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十层样式end======================== */
+
+/* =======================第二十一层样式start======================== */
+.left_border_content .substance li .twentyOne_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentyOne_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twentyOne_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentyOne_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十一层样式end======================== */
+
+/* =======================第二十二层样式start======================== */
+.left_border_content .substance li .twentytwo_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentytwo_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under .twentytwo_right_img{
+    display: block;
+    height: 370px;
+    width: 268px;
+    margin-top: 25px;
+    background: url(../images/index/twentytwo_right_img.png) no-repeat;
+    background-size: 100% 100%;
+}
+/* =======================第二十二层样式end======================== */
+
+/* =======================第二十三层样式start======================== */
+.left_border_content .substance li .twentyThree_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentyThree_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twentyThree_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentyThree_right_img.png);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十三层样式end======================== */
+
+/* =======================第二十四层样式end======================== */
+.left_border_content .twentyFour_substance li{
+    width: 345px;
+    height: 90px;
+    float: left;
+    padding: 0 34px 8px 0;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_img{
+    display: block;
+    width: 120px;
+    height: 90px;
+    background: url(../images/index/twentyFour_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-right: 15px;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_disribe{
+    height: 40px;
+    font-size: 14px;
+    color:#212121;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_author{
+    display: block;
+    float: left;
+    width: 210px;
+    height: 17px;
+    color: #999;
+    margin-top: 6px;
+}
+
+.left_border_content .twentyFour_substance li .twentyFour_left_author i{
+    float: left;
+    width: 16px;
+    height: 17px;
+    line-height: 17px;
+    font-style: normal;
+    font-size: 10px;
+    border: 1px solid #999;
+    margin-right: 10px;
+    color: #999;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_author span{
+    float: left;
+    width: 182px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden;	
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_num{
+    float: left;
+    display: block;
+    width: 210px;
+    height: 21px;
+    margin-top: 5px;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_num img{
+    width: 16px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+.left_border_content .twentyFour_substance li .twentyFour_left_num i,
+.left_border_content .twentyFour_substance li .twentyFour_left_num s{
+    color: #999;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+.right_border_content .under li a .twentyFour_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentyFour_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十四层样式end======================== */
+
+
+/* =======================第二十五层样式start======================== */
+.left_border_content .substance li .twentyFive_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentyFive_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twentyFive_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentyFive_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十五层样式end======================== */
+
+/* =======================第二十六层样式start======================== */
+.left_border_content .substance li .twentySix_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentySix_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twentySix_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentySix_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十六层样式end======================== */
+
+/* =======================第二十七层样式start======================== */
+.left_border_content .substance li .twentySeven_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentySeven_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twentySeven_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentySeven_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十七层样式end======================== */
+
+/* =======================第二十八层样式start======================== */
+.left_border_content .substance li .twentyEight_left_img{
+    display: block;
+    width: 170px;
+    height: 100px;
+    background: url(../images/index/twentyEight_left_img.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.right_border_content .under li a .twentyEight_right_img{
+    width: 110px;
+    height: 60px;
+    background: no-repeat url(../images/index/twentyEight_right_img.jpg);
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-right: 13px;
+}
+/* =======================第二十八层样式end======================== */
+
+
+/* =======================第二十九层样式start======================== */
+
+.content_Bf_right .twentyNine_right_img img{
+    width: 100%;
+    height: 140px;
+    margin-top: 59px;
+}
+/* =======================第二十九层样式end======================== */
+
+
+
+
+
+/* =======================底部样式start======================== */
+.footer {
+    width: 100%;
+    min-width: 1024px;
+    height: 432px;
+}
+.footer .footer_bigBox{
+    width: 1024px;
+    height: 432px;
+    margin: 0 auto;
+}
+.footer .footer_bigBox .footer_upper{
+    width: 100%;
+    height: 150px;
+}
+.footer .footer_bigBox .footer_upper_left{
+    width:291.8px;
+    height: 150px;
+    border-right: 1px solid #eee;
+    margin-right:40px;
+    float: left;
+}
+.footer .footer_bigBox .footer_upper_left span,
+.footer .footer_bigBox .footer_upper_mid span{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #999;
+    display: block;
+}
+.footer .footer_bigBox .footer_upper_left ul{
+    width: 250.8px;
+    height: 110px;
+}
+.footer .footer_bigBox .footer_upper_left ul li a:nth-of-type(1),
+.footer .footer_bigBox .footer_upper_left ul li a:nth-of-type(2){
+    display: block;
+    float: left;
+    width: 50%;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.footer .footer_bigBox .blank{
+    width: 100%;
+    height: 30px;
+}
+.footer .footer_bigBox .footer_upper_mid{
+    width:417.2pxpx;
+    height: 150px;
+    float: left;
+    margin-right:40px;
+    border-right: 1px solid #eee;
+}
+.footer .footer_bigBox .footer_upper_mid ul{
+    width: 376.2px;
+    height: 110px;
+}
+.footer .footer_bigBox .footer_upper_mid ul li a:nth-of-type(1),
+.footer .footer_bigBox .footer_upper_mid ul li a:nth-of-type(2),
+.footer .footer_bigBox .footer_upper_mid ul li a:nth-of-type(3){
+    display: block;
+    float: left;
+    color: #212121;
+    margin-bottom: 10px;
+    width: 33.3333%;
+}
+.footer .footer_upper_right{
+    width: 233px;
+    height: 150px;
+    padding-right:40px;
+    float: right;
+}
+.footer .footer_upper_right .inside_border{
+    width: 210px;
+    height: 84px;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 34px;
+    margin-top: 34px;
+}
+.footer .footer_upper_right .inside_border a{
+    display: block;
+    float: left;
+    width: 56.02px;
+    height: 84px;
+}
+.footer .footer_upper_right .inside_border a:nth-of-type(1){
+    margin-right: 20px;
+}
+.footer .footer_upper_right .inside_border a:nth-of-type(2){
+    margin-right: 20px;
+}
+.footer .footer_upper_right .inside_border img{
+    width: 50px;
+    height: 50px;
+}
+.footer .footer_upper_right .inside_border p{
+    width:56.02px;
+    height: 20px;
+    margin-top: 14px;
+    color: #212121;
+    font-size: 14px;
+    text-align: center;
+}
+.footer .footer_bigBox .footer_lower{
+    width: 100%;
+    height: 252px;
+    margin-top: 30px;
+}
+.footer_bigBox .footer_lower .footer_lower_left{
+    width: 100px;
+    height: 192px;
+    margin-right: 20px;
+    background: white;
+    float: left;
+}
+.footer_bigBox .footer_lower .footer_lower_left img:nth-of-type(1){
+    width: 100px;
+    height: 75px;
+}
+.footer_bigBox .footer_lower .footer_lower_left img:nth-of-type(2){
+    width: 100px;
+    height: 40px;
+    margin: 5px 0;
+}
+.footer_bigBox .footer_lower .footer_lower_left a{
+    display:block;
+    width: 100px;
+    height: 38px;
+    background:url(../images/index/已服务2.png) no-repeat;
+    background-size:100% auto;
+}
+.footer_bigBox .footer_lower .footer_lower_right{
+    width: 904px;
+    height: 192px;
+    float: right;
+}
+.footer_bigBox .footer_lower .footer_lower_right span{
+    margin-right: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.footer_bigBox .footer_lower .footer_lower_right a{
+    font-size: 12px;
+    color: #999;
+}
+.footer_bigBox .footer_lower .footer_lower_right img{
+    width: 16px;
+    height: 16px;
+}
+/* =======================底部样式end======================== */
+
+/* =======================浮动框start======================== */
+.float_left{
+    position: fixed;
+    width: 28px;
+    height: 72px;
+    text-align: center;
+    line-height:14px;
+    border-radius: 0 2px 2px 0;
+    border: 1px solid #e7e7e7;
+    padding: 8px 0px;
+    background: white;
+    box-shadow: 0 6px 10px 0 #e7e7e7;
+    left: 0px;
+    top: 240px;
+}
+.float_left a{
+    font-size: 12px;
+    color: #505050;
+}
+.float_right{
+    position: fixed;
+    width: 56px;
+    height: 450px;
+    right: 80px;
+    top:156px;
+    border:1px solid #e7e7e7;
+    /* border-top-left-radius: 10px; */
+    border-radius:10px;
+    /* background: chartreuse; */
+}
+.float_right a{
+    display: block;
+    width: 56px;
+    height: 21.43px;
+    line-height: 21.43px;
+    color:#505050;
+    font-size: 12px;
+    text-align: center;
+}
+.float_right a:hover{
+    background: #1890ff;
+    color:white
+}
+/* =======================浮动框end======================== */

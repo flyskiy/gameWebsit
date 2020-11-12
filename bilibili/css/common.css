@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    text-decoration-line: none;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 18px;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+    cursor: pointer;
+}
+/* ================= 公共结构样式 ==================== */
+.header {
+    width: 100%;
+    min-width: 1024px;
+    height:260px ;
+}
+.content {
+    width: 1024px;
+    min-width: 1024px;
+    margin:20px auto 0;
+}
+.footer {
+    width: 100%;
+    min-width: 1024px;
+    height: 335px;
+    background:#f6f9fa;
+}
+/*================ 广告部分的样式start =======*/
+.ad{
+    width: 1024px;
+    height: 85px;
+    margin-top: 35px;
+    position: relative;
+}
+.ad img{
+    width: 1024px;
+    height: 85px;
+}
+.ad span{
+    width: 35px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    background: #b5b6be;
+    color: #80808a;
+    left: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+/* ==========广告部分的样式end ============*/
+
+
+/* ============整体内容框架中，相似左边部分样式start===============*/
+.outer_border_part{
+    width: 1024px;
+    height: 450px;
+    margin-top: 55px;
+}
+.left_border_content{
+    width: 724px;
+    height: 450px;
+    float: left;
+    overflow: hidden;
+}
+.left_border_content nav{
+    width: 724px;
+    height: 35px;
+}
+.left_border_content nav .left{
+    float: left;
+}
+.left_border_content nav .left img{
+    width:35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.left_border_content nav .left a{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.left_border_content nav .left a:hover{
+    color: #1890ff;
+}
+
+
+.content_Bf_left ul li a:nth-of-type(2),
+.discribe_author  p{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0  8px;
+    height: 40px;
+    font-weight: 500;
+    padding-right: 12px;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.content_Bf_left ul li a:nth-of-type(3),
+.discribe_author p:nth-of-type(2){
+    display: block;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+    line-height: 16px;
+}
+.content_Bf_left ul li a:nth-of-type(3) i,
+.discribe_author i{
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    color: #999;
+    font-style: normal;
+    font-size: 10px;
+    display: block;
+    float: left;
+    border:1px solid #999;
+    border-radius: 15%;
+}
+
+/*=============== 整体内容框架中，相似左边部分样式end============*/
+
+
+
+.left_border_content nav .right{
+    float: right;
+}
+.left_border_content nav .right button{
+    height: 22px;
+    font-size: 12px;
+    color: #505050;
+    background: white;
+    border: 1px solid silver;
+    padding:0 9px 0 6px;
+    margin-top: 10px;
+}
+.left_border_content nav .right button img{
+    width: 13px;
+    height: 13px;
+}
+.left_border_content .substance,
+.left_border_content .twentyFour_substance{
+    width: 758px;
+    height: 390px;
+    margin-top: 25px;
+}
+.left_border_content .substance li{
+    width: 185px;
+    height: 175px;
+    float: left;
+    padding: 0 0 20px 0;
+}
+
+.outer_border_part .right_border_content{
+    width: 268px;
+    height: 450px;
+    margin: 0 0 0 30px;
+    float: right;
+}
+
+.outer_border_part .right_border_content .upper,
+.outer_border_part .right_border_content .title{
+    width: 268px;
+    height: 35px;
+}
+
+.right_border_content .upper .ranking_list{
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    float: left;
+    color: #212121;
+    font-size: 20px;
+}
+.right_border_content .upper .more{
+    display: block;
+    float: right;
+    height: 22px;
+    font-size: 12px;
+    color: #505050;
+    background: white;
+    border: 1px solid silver;
+    padding:0 9px 0 6px;
+    margin-top: 5px;
+}
+.right_border_content .under{
+    width: 268px;   
+    height: 325px;
+    margin-top: 25px;
+}
